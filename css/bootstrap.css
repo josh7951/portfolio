@@ -51,6 +51,9 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+.footer-description {
+  text-align: left;
+}
 
 body {
   margin: 0;
