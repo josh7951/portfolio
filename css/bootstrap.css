@@ -60,9 +60,7 @@ body {
   line-height: 1.5;
   color: #a2b9d1;
   text-align: left;
-  background: url(../images/background_img.PNG) rgb(24, 22, 22);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: url(../images/galaxy.png) rgb(24, 22, 22);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
