@@ -132,13 +132,22 @@
           
                 <!-- Modal body -->
                 <div class="modal-body">
-                    <form id="contact_form" onsubmit="submitForm(); return false;">
-                      <label>Name:</label>
-                      <p><input id="name" placeholder="Jane Doe" required></p>
-                      <p><input id="email" placeholder="johndoe1@example.com" required></p>
-                      <textarea id="msg" cols="30" rows="10" placeholder="Hello World!"></textarea>
-                      <p><input id="mybtn" type="submit" value="Submit Form"><span id="status"></span></p>
-                    </form>
+                  <form action="https://formspree.io/xdolnzrw" method="POST">
+                  <label>Name:</label>
+                  <input id="name" placeholder="Jane Doe" required>
+                  <label>
+                    Email Address:
+                    <input id="email" placeholder="johndoe1@example.com" type="text" name="_replyto" requried>
+                  </label>
+                  <label>
+                    Message:
+                    <textarea id="msg" cols="30" rows="10" placeholder="Hello World! Lorem ipsum . . ." name="message"></textarea>
+                  </label>
+                
+                  <!-- your other form fields go here -->
+                
+                  <p><button class="btn btn-outline-success" style="float:right;" type="submit">Submit Message</button></p>
+                </form>
                     <p class="description">Or find me here! :)</p>
                     <span><a href="https://www.linkedin.com/in/jmejia7951/" target="_blank"><img title="LinkedIn" src="images/linkedin.png" alt="linkedin.png"></a></span>
                     <span><a href="https://www.instagram.com/josh7951/" target="_blank"><img title="Instagram" src="images/instagram.png" alt="instagram.png"></a></span>
