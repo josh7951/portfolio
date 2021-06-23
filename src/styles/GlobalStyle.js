@@ -41,6 +41,15 @@ const GlobalStyle = createGlobalStyle `
     font-size: inherit;
   }
 
+  h1 {
+    font-size: 3.5rem;
+    color: var(--white-color);
+    span {
+      font-size: 3.5rem;
+      color: var(--primary-color);
+    }
+  }
+
 `;
 
 export default GlobalStyle;
