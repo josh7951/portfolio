@@ -11,19 +11,19 @@ function Navigation() {
       </div>
       <ul className="nav-items">
         <li className="nav-item">
-          <NavLink to="/home" activeClassName="active">Home</NavLink>
+          <NavLink to="/" activeClassName="active" exact>Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/about" activeClassName="active">About</NavLink>
+          <NavLink to="/about" activeClassName="active" exact>About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active">Resume</NavLink>
+          <NavLink to="/resume" activeClassName="active" exact>Resume</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/projects" activeClassName="active">Projects</NavLink>
+          <NavLink to="/projects" activeClassName="active" exact>Projects</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink to="/contact" activeClassName="active">Contact Me</NavLink>
+          <NavLink to="/contact" activeClassName="active" exact>Contact Me</NavLink>
         </li>
       </ul>
       <footer className="footer">
@@ -67,7 +67,7 @@ const NavigationStyle = styled.nav`
       display: block;
       a {
         display: block;
-        padding: .2rem 0;
+        padding: .45rem 0;
         position: relative;
         transition: all 0.4s ease-in-out;
         z-index: 10;
