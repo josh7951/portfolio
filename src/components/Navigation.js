@@ -78,7 +78,7 @@ const NavigationStyle = styled.nav`
           cursor: pointer;
           color: var(--white-color);
         }
-        &:before {
+        &::before {
           content: '';
           position: absolute;
           bottom: 0;
