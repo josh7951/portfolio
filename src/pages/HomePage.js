@@ -13,21 +13,21 @@ function HomePage() {
         <Particle />
       </div>
       <div className="home-container">
-        <h1>Hello World! My name is <span>Joshua Mejia</span></h1>
+        <h1>console.log(<span>'Hello World! :)'</span>);</h1>
         <p>
-          I am a recent graduate of California State University, Northridge with a Bachelor of Science degree in Computer Science. I currently work full time as a Front End Developer for a small e-commerce business and do Freelance Full Stack Development on the side! Welcome to my site! :)
+          My name is Joshua Mejia. I currently work a Front End Developer and do freelance work. Welcome to my site!
         </p>
-        <div class="links-container">
-          <a href="https://github.com/josh7951" className="icon i-github">
+        <div className="links-container">
+          <a href="https://github.com/josh7951" target="_blank" rel="noreferrer" className="icon i-github">
             <GithubIcon />
           </a>
-          <a href="https://www.linkedin.com/in/jmejia7951/" className="icon i-linkedin">
+          <a href="https://www.linkedin.com/in/jmejia7951/" target="_blank" rel="noreferrer" className="icon i-linkedin">
             <LinkedInIcon />
           </a>
-          <a href="https://www.instagram.com/josh7951/" className="icon i-instagram">
+          <a href="https://www.instagram.com/josh7951/" target="_blank" rel="noreferrer" className="icon i-instagram">
             <InstagramIcon />
           </a>
-          <a href="https://www.facebook.com/josh7951" className="icon i-facebook">
+          <a href="https://www.facebook.com/josh7951" target="_blank" rel="noreferrer" className="icon i-facebook">
             <FacebookIcon />
           </a>
         </div>
@@ -60,7 +60,7 @@ const HomePageStyle = styled.header`
         justify-content: center;
         align-items: center;
         border-radius: 50%;
-        transition: all .4 ease-in-out;
+        transition: all 0.4s ease-in-out;
         cursor: pointer;
         &:hover {
           border: 2px solid var(--primary-color);
@@ -92,7 +92,8 @@ const HomePageStyle = styled.header`
       .i-instagram {
         &:hover {
           border: 2px solid #833AB4;
-          color: white;
+          color: white;     
+          transition: all 0.4s ease-in-out;
           background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
           background-clip: text;
           -webkit-text-fill-color: transparent;
