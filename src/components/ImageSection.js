@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import AboutImage from '../img/coding-glasses.jpg';
 import PrimaryButton from '../components/PrimaryButton';
-import resume from '../files/mejia-resume.pdf';
+import resume from '../files/jmejia-resume.pdf';
 
 function ImageSection() { 
   return(

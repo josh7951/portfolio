@@ -13,33 +13,33 @@ function App() {
       <Sidebar />
       <MainStyle>
         <div className="lines">
-            <div className="line-1"></div>
-            <div className="line-2"></div>
-            <div className="line-3"></div>
-            <div className="line-4"></div>
-          </div>
+          <div className="line-1"></div>
+          <div className="line-2"></div>
+          <div className="line-3"></div>
+          <div className="line-4"></div>
+        </div>
 
-          <Switch>
-            <Route path="/" exact>
-              <HomePage />
-            </Route>
+        <Switch>
+          <Route path="/" exact>
+            <HomePage />
+          </Route>
 
-            <Route path="/about" exact>
-              <AboutPage />
-            </Route>
+          <Route path="/about" exact>
+            <AboutPage />
+          </Route>
 
-            <Route path="/resume" exact>
-              <ResumePage />
-            </Route>
+          <Route path="/resume" exact>
+            <ResumePage />
+          </Route>
 
-            <Route path="/projects" exact>
-              <ProjectsPage />
-            </Route>
+          <Route path="/projects" exact>
+            <ProjectsPage />
+          </Route>
 
-            <Route path="/contact" exact>
-              <ContactPage />
-            </Route>
-          </Switch>
+          <Route path="/contact" exact>
+            <ContactPage />
+          </Route>
+        </Switch>
 
       </MainStyle>
     </div>
@@ -54,18 +54,17 @@ const MainStyle = styled.main`
   .lines {
     position: absolute;
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     display: flex;
     justify-content: space-evenly;
     opacity: 0.4;
     z-index: -1;
-  }
-  
-  .line-1, .line-2, .line-3, .line-4 {
-    width: 1px;
-    min-height: 100vh;
-    background-color: var(--border-color);
-  }
+    .line-1, .line-2, .line-3, .line-4 {
+      width: 1px;
+      min-height: 100vh;
+      background-color: var(--border-color);
+    }
+  }  
 `;
 
 export default App;
