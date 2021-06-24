@@ -16,15 +16,15 @@ function ServicesSection() {
                         image={web} 
                         alt={"Site Map"}
                         title={'Web Development'} 
-                        description={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quam consequuntur. Placeat, quod. Cum temporibus rem, molestias nobis assumenda quas quidem incidunt esse saepe velit aut eveniet ea fugiat nam!'}
+                        description={"Experienced in creating Multi-page and Single-page applications as a Full Stack Developer following industry best practices using current langauges and modern frameworks, libraries and APIs."}
                     />
                     <div className="mid-card">
                         <ServiceCard 
                             image={app} 
                             alt={"Mobile App"}
                             title={'Android App Development'} 
-                            description={'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quam consequuntur. Placeat, quod. Cum temporibus rem, molestias nobis assumenda quas quidem incidunt esse saepe velit aut eveniet ea fugiat nam!'}
-                        />  
+                            description={"Experienced in developing mobile applications for Android Systems using Java. Also knowledgable in using Google's FireBase Realtime Database and Google FireStore"}
+                        /> 
                     </div>
                 </div>
             </ServicesSectionStyles>  
@@ -36,7 +36,7 @@ const ServicesSectionStyles = styled.section`
     .service-container {
         margin-top: 5rem;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     .mid-card {
