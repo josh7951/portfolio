@@ -22,6 +22,15 @@ const ServiceCardStyle = styled.div`
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     transition: all .4s ease-in-out;
+    @media screen and (max-width: 1200px) {
+        width: 100%;
+    }        
+    @media screen and (max-width: 950px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 900px) {
+        width: 100%;
+    }
     &:hover{
         border-top: 8px solid var(--primary-color);
         transform: translateY(3px);

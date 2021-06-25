@@ -9,8 +9,8 @@ const portfolios = [
     image: img1,
     link1: 'http://ti-enterprise.com/',
     link2: 'https://github.com/josh7951/TI-Enterprise',
-    title: 'TI-Enterprise (In Active Development)',
-    text: 'Simple brochure site created using Laravel, Vue.js, and Bulma.io. Created a custom Content Management System to give the admin the ability to update the tournament schedule when needed.'
+    title: 'TI-Enterprise',
+    text: 'Brochure site created using Laravel, Vue.js, and Bulma.io. Created a custom CMS to give the admin the ability to update certain web pages.'
   },
   {
     id: 2,
@@ -18,8 +18,8 @@ const portfolios = [
     image: img3,
     link1: 'https://project-leo.dev/',
     link2: 'https://github.com/josh7951/project-leo',
-    title: 'Project-LEO (Learning Environment Online)',
-    text: 'Online Learning Application'
+    title: 'Project-LEO',
+    text: 'CSUN Senior Capstone project. Created an application geared towards teaching intermediate school students entry level programming'
   },
   {
     id: 3,
@@ -36,8 +36,8 @@ const portfolios = [
     image: img2,
     link1: '',
     link2: 'https://github.com/CoconutFresh/RunningApp',
-    title: 'Android Application - Fitness Tracker',
-    text: 'Developed a login verification system and enabled Google OAuth. Also created the database architecture using FireBase RealTime Database and FireBase FireStore to store user account infromation and user fitness data'
+    title: 'Fitness App - Android',
+    text: 'Developed the database architecture using Firebase Realtime/Firestore database to store user account infromation and fitness data'
   }
 ]
 

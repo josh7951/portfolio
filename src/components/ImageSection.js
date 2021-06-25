@@ -40,7 +40,12 @@ function ImageSection() {
 const ImageSectionStyle = styled.div`
   display: flex;
   margin-top: 4rem;
-
+  @media screen and (max-width: 1200px) {
+    flex-direction: column;
+    .left-content{
+      margin-bottom: 2rem;
+    }
+  }
   .left-content {
     width: 100%;
     height: 50vh;
@@ -48,6 +53,9 @@ const ImageSectionStyle = styled.div`
       width: 90%;
       height: 100%;
       object-fit: cover;
+      @media screen and (max-width: 1200px) {
+        width: 100%;
+      }
     }
   }
 

@@ -106,6 +106,12 @@ const GlobalStyle = createGlobalStyle `
       font-size: 3.5rem;
       color: var(--primary-color);
     }
+    @media screen and (max-width: 502px) {
+      font-size: 2.5rem;
+      span {
+        font-size: 2.5rem;
+      }
+    }
   }
 
   span {
@@ -123,7 +129,7 @@ const GlobalStyle = createGlobalStyle `
   .theme-toggle {    
     position: fixed;
     right: 0;
-    top: 10%;
+    top: 50%;
     background-color: var(--background-light-color-2);
     width: 6.5rem;
     height: 2.5rem;
@@ -140,7 +146,7 @@ const GlobalStyle = createGlobalStyle `
   }
 
   // Mobile Nav
-  .ham-burger-menu {
+  .burger-menu {
     position: absolute;
     right: 5%;
     top: 3%; 
@@ -150,12 +156,12 @@ const GlobalStyle = createGlobalStyle `
       font-size: 3rem;
     }
   }
-  .nav-toggle {
+  .burger-active {
     transform: translateX(0);
     z-index: 20;
   }
   @media screen and (max-width:1200px) {
-    .ham-burger-menu {
+    .burger-menu {
       display: block;
     }
   }

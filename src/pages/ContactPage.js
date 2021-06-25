@@ -15,7 +15,7 @@ function ContactPage() {
 
   return (
     <MainLayout>
-      <Title title={'Contact Me'} span={'Contact Me'} />
+      <Title title={'Contact'} span={'Contact'} />
       <ContactPageStyle>
         <InnerLayout className={'contact-section'}>
           <div className="left-content">
@@ -43,7 +43,7 @@ function ContactPage() {
                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
               </div>
               
-              <div className="form-field">             
+              <div className="form-field form-btn">             
                 <SubmitButton title="Send Message" buttonType="submit" />
               </div>
             </form>
@@ -79,6 +79,13 @@ const ContactPageStyle = styled.section`
     display: grid;
     grid-template-columns: repeat(2, 1fr);   
     grid-column-gap: 2rem;
+    @media screen and (max-width: 978px) {
+      grid-template-columns: repeat(1, 1fr);
+      .form-btn {
+        margin-bottom: 3rem;
+      }
+    }
+    
     .form-title {
       h4 {
         color: var(--white-color);
@@ -88,6 +95,9 @@ const ContactPageStyle = styled.section`
     }
     .form {
       width: 100%;
+      @media screen and (max-width: 502px) {
+        width: 100%;
+      }
       .form-field {
         width: 100%;
         margin-top: 2rem;
@@ -121,9 +131,12 @@ const ContactPageStyle = styled.section`
       }
     }
 
-    .right-content{
+    .right-content {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      @media screen and (max-width: 502px) {
+        width: 70%;
+      }
     }
   }
 `;

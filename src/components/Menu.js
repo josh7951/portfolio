@@ -39,7 +39,7 @@ const MenuStyle = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-    @media screen and (max-width:920px) {
+    @media screen and (max-width:1200px) {
         grid-template-columns: repeat(2, 1fr);
     }
     @media screen and (max-width:670px) {
@@ -100,7 +100,6 @@ const MenuStyle = styled.div`
         }
         .project-image:hover {
           ul {
-            transform: translateY(0);
             transform: translate(-50%, -50%);
             display: flex;
             align-items: center;
@@ -129,7 +128,7 @@ const MenuStyle = styled.div`
           }
         }
         &::before {
-          height: 14.25rem;
+          height: calc(100% - 45%);
           width: calc(100% - 4%);
           background-color: white;
           opacity: 0.9;
