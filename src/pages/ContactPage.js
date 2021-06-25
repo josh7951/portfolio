@@ -51,12 +51,12 @@ function ContactPage() {
                 {result ? <Result /> : null}
               </div>
               <div className="form-field">
-                <label htmlFor="name">Name*</label>
+                <label htmlFor="name">Name</label>
                 <input name="name" id="name" type="text" />
               </div>
 
               <div className="form-field">
-                <label htmlFor="email">Email*</label>
+                <label htmlFor="email">Email</label>
                 <input name="email" id="email" type="email" />
               </div>
 
@@ -66,7 +66,7 @@ function ContactPage() {
               </div>
 
               <div className="form-field">
-                <label htmlFor="message">Message*</label>
+                <label htmlFor="message">Message</label>
                 <textarea name="message" id="message" cols="30" rows="10"></textarea>
               </div>
               

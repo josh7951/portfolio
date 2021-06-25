@@ -25,7 +25,7 @@ function Resume() {
             subtitle={'AQLighting Group'}
             list={<>
                     <li>Created new components and features to improve UI/UX Design</li>
-                    <li>Improvements on UI design for both deskop and mobile applications</li>
+                    <li>Improvements on UI design for both desktop and mobile applications</li>
                     <li>Identified and corrected any website errors negatively impacting User Experience</li>
                     <li>Management of product pages and product inventory across all sales channels such as BigCommerce, Amazon, Walmart, Wayfair, and Houzz</li>
                     <li>Utilized Google Analytics to analyze success rates of Google Ads and SEO Strategies and used data to maintain rankings on top selling products and improve rankings on underperforming products</li>
@@ -51,7 +51,7 @@ function Resume() {
             list={<>
                     <li>Associates of Science in Computer Science for Transfer</li>
                     <li>Associates of Science in Mathematics for Transfer</li>
-                    <li>Associates of Science in Phyiscs for Transfer</li>
+                    <li>Associates of Science in Physics for Transfer</li>
                     <li>Associates of Science in Mathematics</li>
                     <li>Associate of Arts in Liberal Arts &amp; Sciences</li>
                   </>}
