@@ -1,5 +1,12 @@
-<!DOCTYPE html>
-  <html>
-  <h1 style="color:blue; font-size: 16px;">Personal Portfolio Website</h1>
-  <p>Check it out <a href="https://joshuamejia-dev.com/">here!</a></p>
-  <html>
+# Personal Portolfio Site!
+
+Check it out [here](https://joshuamejia-dev.com/)
+
+## Libraries
+
+- [React](https://reactjs.org/)
+- [particle.js](https://vincentgarreau.com/particles.js/)
+
+## Framework
+
+- [Material-UI](https://material-ui.com/)
