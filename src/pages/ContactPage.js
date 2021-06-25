@@ -32,6 +32,11 @@ function ContactPage() {
       e.target.reset();
       showResult(true);
   }
+
+  setTimeout(() =>{
+    showResult(false);
+  }, 5000)
+  
   return (
     <MainLayout>
       <Title title={'Contact'} span={'Contact'} />
