@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 import avatar from '../img/profilepic.jpg'
+import reactLogo from '../img/react.png';
 
 function Navigation() {
   return (
@@ -27,7 +28,7 @@ function Navigation() {
         </li>
       </ul>
       <footer className="footer">
-        <p>@2021 Joshua Mejia</p>
+        <p><a href="https://reactjs.org/" target="_blank" rel="noreferrer"><img src={reactLogo} alt="React Logo" />Built with React</a></p>
       </footer>
     </NavigationStyle>
   )
@@ -107,6 +108,13 @@ const NavigationStyle = styled.nav`
       font-size: 0.8rem;
       display: block;
       text-align: center;
+      img {
+        display: inline-block;
+        width: 10%;
+        height: auto;
+        transform: translate(0, .4rem);
+        margin-right: 5px;
+      }
     }
   }
 

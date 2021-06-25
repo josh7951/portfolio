@@ -1,12 +1,13 @@
-import img1 from '../img/galaxy.png';
-import img2 from '../img/snowy-mountains.jpg';
-import img3 from '../img/mountain-lake.png';
+import trueImage from '../img/project-thumbs/true-image.png';
+import khronotes from '../img/project-thumbs/khronotes.png';
+import leo from '../img/project-thumbs/projectleo.png';
+import android from '../img/project-thumbs/android-app.jpg';
 
 const portfolios = [
   {
     id: 1,
     category: 'Web Apps',
-    image: img1,
+    image: trueImage,
     link1: 'http://ti-enterprise.com/',
     link2: 'https://github.com/josh7951/TI-Enterprise',
     title: 'TI-Enterprise',
@@ -15,7 +16,7 @@ const portfolios = [
   {
     id: 2,
     category: 'Web Apps',
-    image: img3,
+    image: leo,
     link1: 'https://project-leo.dev/',
     link2: 'https://github.com/josh7951/project-leo',
     title: 'Project-LEO',
@@ -24,7 +25,7 @@ const portfolios = [
   {
     id: 3,
     category: 'Web Apps',
-    image: img2,
+    image: khronotes,
     link1: 'https://khronotes.com/',
     link2: 'https://github.com/Inviro/584-scheduler',
     title: 'KhroNotes',
@@ -33,7 +34,7 @@ const portfolios = [
   {
     id: 4,
     category: 'Mobile Apps',
-    image: img2,
+    image: android,
     link1: '',
     link2: 'https://github.com/CoconutFresh/RunningApp',
     title: 'Fitness App - Android',
