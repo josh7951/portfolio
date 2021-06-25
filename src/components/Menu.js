@@ -129,7 +129,7 @@ const MenuStyle = styled.div`
           }
         }
         &::before {
-          height: calc(100% - 32%) ;
+          height: 14.25rem;
           width: calc(100% - 4%);
           background-color: white;
           opacity: 0.9;
