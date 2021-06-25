@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import { MainLayout, InnerLayout } from '../styles/Layouts';
 import Title from '../components/Title';
@@ -7,12 +7,31 @@ import SubmitButton from '../components/SubmitButton';
 import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import emailjs from 'emailjs-com';
 
+const Result = () => {
+  return(
+    <p className="success-msg">Your message was sent!</p>
+  );
+};
 function ContactPage() {
   const phoneIcon = <PhoneIcon />;
   const emailIcon = <EmailIcon />;
   const locationIcon = <LocationOnIcon />;
 
+  const [result, showResult] = useState(false);
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_wmp4vtf', 'template_tm2hk0l', e.target, 'user_dI8WlZvyCIuo4lkqxBByT')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+      showResult(true);
+  }
   return (
     <MainLayout>
       <Title title={'Contact'} span={'Contact'} />
@@ -22,7 +41,10 @@ function ContactPage() {
             <div className="form-title">
               <h4>Send me a message:</h4>
             </div>
-            <form action="" className="form">
+            <form method="post" onSubmit={sendEmail} className="form">
+              <div className="form-field">
+                {result ? <Result /> : null}
+              </div>
               <div className="form-field">
                 <label htmlFor="name">Name*</label>
                 <input name="name" id="name" type="text" />
@@ -102,6 +124,12 @@ const ContactPageStyle = styled.section`
         width: 100%;
         margin-top: 2rem;
         position: relative;
+        .success-msg {
+          text-align: center;
+          background-color: var(--background-dark-grey);
+          padding: 1rem .8rem;
+          border-radius: 10px;
+        }
         label {
           display: inline-block;
           position: absolute;
