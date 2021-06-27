@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import AboutImage from '../img/coding-glasses.jpg';
 import PrimaryButton from '../components/PrimaryButton';
-import resume from '../files/jmejia-resume.docx';
+import resume from '../files/jmejia-resume.pdf';
 
 function ImageSection() { 
   return(
@@ -31,7 +31,7 @@ function ImageSection() {
             <p>: California, United States</p>
           </div>
         </div>
-        <PrimaryButton title='Download Resume' link={ resume } fileName="jmejia-resume"/>
+        <PrimaryButton title='Download Resume' link={ resume } fileName="jmejia-resume.pdf"/>
       </div>
     </ImageSectionStyle>
   )
