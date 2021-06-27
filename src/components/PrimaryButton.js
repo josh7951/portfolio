@@ -1,15 +1,15 @@
 import React from 'react';
 import styled from 'styled-components';
 
-function PrimaryButton({title, link}) {
-    const openFile = () => {
+function PrimaryButton({title, link, fileName}) {
+    /*const openFile = () => {
         window.open(
             link,
             '_blank'
         );
-    }
+    }*/
     return (
-        <PrimaryButtonStyle onClick={openFile}>
+        <PrimaryButtonStyle href={ link } download={ fileName }>
             {title}
         </PrimaryButtonStyle>
     )
