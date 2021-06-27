@@ -2,6 +2,7 @@ import trueImage from '../img/project-thumbs/true-image.png';
 import khronotes from '../img/project-thumbs/khronotes.png';
 import leo from '../img/project-thumbs/projectleo.png';
 import android from '../img/project-thumbs/android-app.jpg';
+import discord from '../img/project-thumbs/crowd-bot.png';
 
 const portfolios = [
   {
@@ -39,6 +40,15 @@ const portfolios = [
     link2: 'https://github.com/CoconutFresh/RunningApp',
     title: 'Fitness App - Android',
     text: 'Developed the database architecture using Firebase Realtime/Firestore database to store user account information and fitness data'
+  },
+  {
+    id: 5,
+    category: 'Software',
+    image: discord,
+    link1: '',
+    link2: 'https://github.com/josh7951/Crowd-Bot',
+    title: 'Crowd Bot - Discord',
+    text: 'A simple bot used to display the live crowd data from a user query input. Uses the Discord API and BestTime.app API. Coded in python'
   }
 ]
 
