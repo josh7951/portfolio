@@ -13,4 +13,4 @@ Check it out [here](https://joshuamejia-dev.com/)
 
 ## Mail Forwarding System
 
--- [EmailJS](https://www.emailjs.com/)
+- [EmailJS](https://www.emailjs.com/)
