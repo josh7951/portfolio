@@ -48,7 +48,7 @@ const portfolios = [
     link1: '',
     link2: 'https://github.com/josh7951/Crowd-Bot',
     title: 'Crowd Bot - Discord',
-    text: 'A simple bot used to display the live crowd data from a user query input. Uses the Discord API and BestTime.app API. Coded in python'
+    text: 'A simple bot used to display the live crowd data from a user query input. Uses the Discord API and BestTime.app API. Written in Python'
   }
 ]
 
