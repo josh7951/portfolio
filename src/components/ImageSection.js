@@ -31,7 +31,7 @@ function ImageSection() {
             <p>: California, United States</p>
           </div>
         </div>
-        <PrimaryButton title='Download Resume' link={ resume } fileName="jmejia-resume.pdf"/>
+        <PrimaryButton title='Download Resume' link={ resume } fileName="jmejia-resume.docx"/>
       </div>
     </ImageSectionStyle>
   )
