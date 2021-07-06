@@ -4,7 +4,7 @@ import { InnerLayout } from '../styles/Layouts';
 import Title from '../components/Title';
 import ServiceCard from '../components/ServiceCard';
 import web from '../img/web.svg';
-import app from '../img/mobile-app.svg'
+import app from '../img/mobile-app.svg';
 
 function ServicesSection() {
     return (
