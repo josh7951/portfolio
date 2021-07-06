@@ -90,13 +90,13 @@ function Skills(){
               link={'https://aws.amazon.com/'}
             />            
             <SkillIcon 
-              title={'Adobe Photoshop'}
+              title={'Photoshop'}
               image={photoshop}
               alt={'Adobe Photoshop Icon'}
               link={'https://www.adobe.com/products/photoshop.html'}
             />
             <SkillIcon 
-              title={'Adobe Illustrator'}
+              title={'Illustrator'}
               image={illustrator}
               alt={'Adobe Illustrator Icon'}
               link={'https://www.adobe.com/products/illustrator.html'}
@@ -114,7 +114,7 @@ function Skills(){
               link={'https://developer.android.com/studio'}
             />
             <SkillIcon 
-              title={'Google Firebase'}
+              title={'Firebase'}
               image={firebase}
               alt={'Google Firebase Icon'}
               link={'https://firebase.google.com/'}
