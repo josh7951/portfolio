@@ -20,7 +20,17 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem 
-            year={'Apr 2019 - Current'}
+            year={'June 2021 - Current'}
+            title={'E-Commerce Content Specialist'}
+            subtitle={'Band Pro Film & Digital'}
+            list={<>
+                    <li>Analyze and evaluate storefront performance and keep up to date with current industry trends</li>
+                    <li>Deploy new product pages and keep inventory and pricing throughout the site up to date</li>
+                    <li>Provided recommendations to improve Google Search and Display Adwords campaigns in order to maximize account ROI</li>
+                  </>}
+          />    
+          <ResumeItem 
+            year={'Apr 2019 - June 2021'}
             title={'Front-End Developer'}
             subtitle={'AQLighting Group'}
             list={<>
