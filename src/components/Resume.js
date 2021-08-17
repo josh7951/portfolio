@@ -30,7 +30,7 @@ function Resume() {
                   </>}
           />    
           <ResumeItem 
-            year={'Apr 2019 - Julu 2021'}
+            year={'Apr 2019 - July 2021'}
             title={'Front-End Developer'}
             subtitle={'AQLighting Group'}
             list={<>
