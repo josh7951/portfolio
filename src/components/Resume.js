@@ -26,7 +26,9 @@ function Resume() {
             list={<>
                     <li>Analyze and evaluate storefront performance and keep up to date with current industry trends</li>
                     <li>Deploy new product pages and keep inventory and pricing throughout the site up to date</li>
-                    <li>Provided recommendations to improve Google Search and Display Adwords campaigns in order to maximize account ROI</li>
+                    <li>Analyze and improve Google Search and Display Adwords campaigns in order to maximize account ROI</li>
+                    <li>Improve UI/UX Design for better mobile response</li>
+                    <li>Designed and created new landing pages for featured products linked to Google Ads</li>
                   </>}
           />    
           <ResumeItem 
