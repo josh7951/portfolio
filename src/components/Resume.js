@@ -24,11 +24,10 @@ function Resume() {
             title={'E-Commerce Content Specialist'}
             subtitle={'Band Pro Film & Digital'}
             list={<>
-                    <li>Analyze and evaluate storefront performance and keep up to date with current industry trends</li>
-                    <li>Deploy new product pages and keep inventory and pricing throughout the site up to date</li>
+                    <li>Analyze and evaluate storefront performance and keep up to date with current industry trends and improved UI/UX Design when needed</li>
+                    <li>Improved SEO and Page Performance bringing in over a 50% increase of traffic to the site</li>
                     <li>Analyze and improve Google Search and Display Adwords campaigns in order to maximize account ROI</li>
-                    <li>Improve UI/UX Design for better mobile response</li>
-                    <li>Designed and created new landing pages for featured products linked to Google Ads</li>
+                    <li>Designed and launched new landing pages and product pages using HTML/CSS/JavaScript</li>
                   </>}
           />    
           <ResumeItem 
