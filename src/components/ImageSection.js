@@ -14,7 +14,7 @@ function ImageSection() {
       <div className="right-content">
         <h4>Biography</h4>
         <p className="description">
-          I am an alumnus of California State University, Northridge with a Bachelor of Science degree in Computer Science. I currently work full time as a Front End Developer for a small e-commerce company and do Freelance Full Stack Development on the side!
+          I am an alumnus of California State University, Northridge with a Bachelor of Science degree in Computer Science. I currently work as a Software Engineer at Abbott!
         </p>
       
         <div className="about-info">
