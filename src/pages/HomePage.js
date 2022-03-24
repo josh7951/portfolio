@@ -15,7 +15,7 @@ function HomePage() {
       <div className="home-container">
         <h1>console.log(<span>'Hello World! :)'</span>);</h1>
         <p>
-          My name is Joshua Mejia. I currently work as a Front-End Developer and do freelance work. Welcome to my site!
+          My name is Joshua Mejia. I currently work as a Software Engineer at a U.S. Healthcare Comapny. Welcome to my site!
         </p>
         <div className="links-container">
           <a href="https://github.com/josh7951" target="_blank" rel="noreferrer" className="icon i-github">
