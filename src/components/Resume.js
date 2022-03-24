@@ -23,7 +23,9 @@ function Resume() {
             year={'April 2022 - Current'}
             title={'Software Engineer I'}
             subtitle={'Abbott Laboratories'}
-            list={}
+            list={<>
+                    <li>Support implementation, enhancements, and modifications to test cases, procedures, scripts, and code</li>
+                 </>}
           />
           <ResumeItem 
             year={'July 2021 - April 2022'}
