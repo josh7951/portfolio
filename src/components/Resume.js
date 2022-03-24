@@ -20,7 +20,13 @@ function Resume() {
         </div>
         <div className="resume-content">
           <ResumeItem 
-            year={'July 2021 - Current'}
+            year={'April 2022 - Current'}
+            title={'Software Engineer I'}
+            subtitle={'Abbott Laboratories'}
+            list={}
+          />
+          <ResumeItem 
+            year={'July 2021 - April 2022'}
             title={'E-Commerce Content Specialist'}
             subtitle={'Band Pro Film & Digital'}
             list={<>
